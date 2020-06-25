@@ -1,0 +1,21 @@
+//This is a simple math operations program take only two numbers.
+//data type (double) is used to avoid the possible overflow of (intger) data type is used.
+/*The devision operation:
+. Double datatype is used to get the fractions if any.
+. The if condition checking the the second number (the devisor) if it is 0m it prints the mentioned message and finishes the program
+/*
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    double num1,num2;
+    cin>>num1>>num2;
+    cout<<num1<<" + "<<num2<<" = "<<(num1+num2)<<"\n";
+    cout<<num1<<" - "<<num2<<" = "<<(num1-num2)<<"\n";
+    cout<<num1<<" * "<<num2<<" = "<<(num1*num2)<<"\n";
+    if(num2==0){cout<<"Undefined Devision\n"; return 0;}
+    cout<<num1<<" / "<<num2<<" = "<<(num1/num2)<<"\n";
+
+    return 0;
+}
